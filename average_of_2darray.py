@@ -33,7 +33,7 @@ def main():
     for loop_counter_rows in range(0, rows):
         temp_column = []
         for loop_counter_columns in range(0, columns):
-            a_random_number = random.randint(0,50)
+            a_random_number = random.randint(0, 50)
             temp_column.append(a_random_number)
             print("{0} ".format(a_random_number), end="")
         a_2d_list.append(temp_column)
